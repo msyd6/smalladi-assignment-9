@@ -1,47 +1,6 @@
-### Analysis of Activation Functions in Feedforward Neural Networks for GitHub README
+### Analysis of Activation Functions in Neural Networks
 
-Below are the analyses for the given activation functions (`tanh`, `relu`, and `sigmoid`) based on their behavior in learned features, decision boundaries, and gradients visualization.
-
-#### 1. First Set of GIFs (Sigmoid, ReLU, Tanh)
-
-##### Learned Features in Hidden Space
-- **Sigmoid**:
-  - The hidden space shows a concentration of data points that are less spread compared to other activation functions.
-  - The decision plane appears flat, suggesting that the network struggles with forming complex decision regions.
-  - Blue and red data points are clustered closely together, indicating a poor differentiation capability.
-- **ReLU**:
-  - The points are distinctly separated, and the hidden space contains clear clusters.
-  - Sharp changes in the plane suggest effective modeling of non-linearity, but some inactive neurons can cause certain regions to appear clustered near zero.
-- **Tanh**:
-  - Data points are well-distributed in the hidden space, with a balance between positive and negative outputs.
-  - The smoother separation of blue and red points indicates that `tanh` can effectively spread data in the feature space.
-
-##### Decision Boundary in Input Space
-- **Sigmoid**:
-  - The decision boundary is linear and not very adaptive, which can struggle to separate complex data distributions.
-- **ReLU**:
-  - Produces sharp, angular boundaries. Can be highly non-linear, fitting data accurately, but prone to overfitting.
-- **Tanh**:
-  - Provides a well-contoured, non-linear decision boundary.
-  - The smooth boundary adapts effectively to the data.
-
-##### Gradients Visualization
-- **Sigmoid**:
-  - Gradients are weaker due to saturation, leading to ineffective learning.
-  - Gradient lines are mostly thin, indicating slow convergence.
-- **ReLU**:
-  - Some connections have strong gradients, while others may become inactive, leading to dead neurons.
-  - Varying thickness in connections suggests an imbalance in learning across neurons.
-- **Tanh**:
-  - Balanced gradient propagation, which prevents extreme saturation or neuron inactivity.
-  - Gradients maintain medium strength throughout, aiding effective learning.
-
-##### Convergence Behavior
-- **Sigmoid**: Slow convergence, linear decision boundaries, struggles with complex data.
-- **ReLU**: Fast convergence, able to learn complex boundaries, but risk of dead neurons.
-- **Tanh**: Balanced convergence, effective for non-linearity while avoiding vanishing gradient issues.
-
-#### 2. Second Set of GIFs (Tanh, ReLU, Sigmoid)
+Below are the analyses for the given activation functions based on their behavior in learned features, decision boundaries, and gradients visualization.
 
 ##### Learned Features in Hidden Space
 - **Tanh**:

@@ -1,10 +1,6 @@
-### Analysis of Activation Functions in Neural Networks
+## Analysis of Activation Functions in Neural Networks
 
 Below are the analyses for the given activation functions based on their behavior in learned features, decision boundaries, and gradients visualization.
-
-### Analysis of Activation Functions in Feedforward Neural Networks for GitHub README
-
-Below is the analysis of the activation functions (`tanh`, `relu`, and `sigmoid`) based on their behavior in learned features, decision boundaries, gradients visualization, and convergence.
 
 #### 1. Learned Features in Hidden Space
 - **Tanh**: Provides an evenly distributed separation, allowing for better differentiation between classes. The balanced distribution suggests tanh effectively captures a wide range of inputs, leading to smoother decision regions.

@@ -1,4 +1,4 @@
-## Analysis of Activation Functions in Neural Networks
+## Analysis and Explanation
 
 Below are the analyses for the given activation functions based on their behavior in learned features, decision boundaries, and gradients visualization.
 
